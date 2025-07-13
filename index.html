@@ -248,32 +248,7 @@
     <script type="module" src="includes/script.js"></script>
 
       <script>
-    const bar = document.getElementById("bar");
-    const close = document.getElementById("close");
-    const sideMenu = document.getElementById("sideMenu");
-
-    // Open side menu
-    bar.addEventListener("click", (e) => {
-      e.preventDefault();
-      sideMenu.classList.add("active");
-    });
-
-    // Close side menu
-    close.addEventListener("click", (e) => {
-      e.preventDefault();
-      sideMenu.classList.remove("active");
-    });
-
-    // Optional: Click outside to close
-    document.addEventListener("click", (e) => {
-      if (
-        sideMenu.classList.contains("active") &&
-        !sideMenu.contains(e.target) &&
-        !bar.contains(e.target)
-      ) {
-        sideMenu.classList.remove("active");
-      }
-    });
+  
   </script>
 
 

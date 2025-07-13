@@ -87,6 +87,12 @@ body {
 
 /* navbar */
 
+#navbar{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background-color: #ffffffd8;
+}
 
 #navbar .animation-bar span i {
   margin: 10px 50px 10px 50px;
@@ -588,16 +594,6 @@ body {
     color: #000;
     font-weight: 600;
   }
-
-
-
-
-
-
-
-
-
-
 
 
 
